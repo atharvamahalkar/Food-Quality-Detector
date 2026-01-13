@@ -169,3 +169,4 @@ def train_agent(simulate=True, episodes=2000):
 if __name__ == "__main__":
     # Set simulate=False to use real pH sensor via Serial
     agent, rewards = train_agent(simulate=True, episodes=300)
+// automated update 13 Jan 2026 15:01:02
