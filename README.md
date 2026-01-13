@@ -96,3 +96,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - This project is developed as part of the selection process for the FundsRoom interview round, aiming to showcase innovative solutions in automated food quality control for the hyperlocal business model.
 
 ----------
+# test
