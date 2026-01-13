@@ -1,0 +1,180 @@
+/* This file contains the styles for the App component */
+
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.App .App-header h1{
+  transform:translatex(-68px) translatey(0px);
+ }
+ 
+.App .App-header .upload-section{
+  transform:translatex(-58px) translatey(-232px);
+  flex-wrap:nowrap;
+  flex-direction:column;
+  flex:0 1 auto;
+  align-self:center;
+  visibility:visible;
+}
+ 
+.upload-section form input[type=file]{
+  flex:1 1 0%;
+  visibility:visible;
+  opacity:0.78;
+  display:block;
+  filter: sepia(0.49);
+  font-style:normal;
+  border-width:0px;
+  border-top-right-radius:50px;
+  border-bottom-left-radius:50px;
+  border-top-left-radius:50px;
+  border-bottom-right-radius:50px;
+  position:static;
+}
+ 
+.upload-section form button{
+  border-top-left-radius:50px;
+  border-top-right-radius:50px;
+  border-bottom-left-radius:50px;
+  border-bottom-right-radius:50px;
+}
+
+.App-header {
+  background-color: #282c34;
+  background-image: url('./bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-attachment: fixed; 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.fileInputLabel {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #b70005;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #b70005;
+  cursor: pointer;
+  margin: 10px 0; 
+  text-align: center;
+}
+
+h1 {
+  color: #fcc101;
+  margin-top: 30px; 
+}
+
+.upload-section form label{
+  text-shadow:rgba(0, 0, 0, 0.3) 0px 1px 1px;
+  font-style:italic;
+ }
+ 
+.upload-section {
+  margin-right: 300px;
+  margin-bottom: 20px;
+  width: 400px;
+  border: 2px dashed #b70005;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: rgba(255, 255, 255, 0.5); 
+}
+
+input[type="file"] {
+  width: 90%;
+  height: 250px;
+  cursor: pointer;
+  opacity: 1; 
+
+}
+
+button {
+  margin-top: 10px; 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #b70005;
+  color: #fff;
+  cursor: pointer;
+}
+
+img {
+  width: 100%; 
+  height: auto; 
+  max-height: 200px; 
+  object-fit: contain; 
+}
+
+.try{
+  position: relative;
+  right: 100px;
+}
+
+h1 {
+  color: #fcc101;
+  margin-bottom: 300px;
+  margin-right: 280px;
+}
+
+.form-container {
+  max-width: 400px; 
+  margin: 0 auto; 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="file"] {
+  padding: 10px;
+  border: 2px solid #b70005;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input[type="file"]:hover,
+input[type="file"]:focus {
+  border-color: #fcc101;
+  cursor: pointer;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #b70005;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #fcc101;
+  color: black;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.App-header {
+  animation: fadeIn 2s ease-in;
+}
